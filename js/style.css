@@ -1,0 +1,66 @@
+html {
+    background-color: rgb(247, 255, 136);
+    font-family: Verdana;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#game-img {
+    width: 80px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.button-div {
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#start-button {
+    background-color: white;
+    color: black;
+    padding: 15px 10px 15px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.game-score {
+    display: none;
+    font-size: 30px;
+    color: rgb(206, 184, 184);
+    padding: 0px 0px 0px 20px;
+}
+.how-to {
+    width: 800px;
+    font-size: 26px;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 35px;
+    line-height: 5px;
+}
+.seta {
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#laco {
+    width: 30px;
+    padding-left: 10px;
+}
+
+#fralda {
+    width: 30px;
+}
+.game {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+
+#links-img {
+    padding-left: 25px;
+    width: 500px;
+    white-space: pre-line;
+    text-align: justify;
+}
