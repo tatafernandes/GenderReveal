@@ -9,7 +9,7 @@ class Background {
         img.onload = () => {
             this.img = img;
         };
-        img.src = './images/fundo.jfif';
+        img.src = './background.jpg';
     };
 
     draw() {
