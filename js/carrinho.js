@@ -9,7 +9,7 @@ class Background {
         img.onload = () => {
             this.img = img;
         };
-        img.src = './images/background.png';
+        img.src = './images/fundo.jfif';
     };
 
     draw() {
@@ -31,7 +31,7 @@ class Carrinho {
             this.img = img;
         };
         img.src = './images/carrinho.png';
-        this.speed = 35;
+        this.speed = 65;
     }
 
     draw() {
@@ -90,9 +90,9 @@ class Laco {
         img.onload = () => {
             this.img = img;
         };
-        const imgSrc = ['./images/laco-rosa.png'];
+        const imgSrc = ['./images/laco-rosa.gif'];
         img.src = imgSrc[Math.floor(Math.random() * imgSrc.length)];
-        this.speed = 5;
+        this.speed = 3;
     };
 
     draw() {
@@ -133,9 +133,9 @@ class Obstacles {
         img.onload = () => {
             this.img = img;
         };
-        const imgSrc = ['./images/laco-azul'];
+        const imgSrc = ['./images/laco-azul.png'];
         img.src = imgSrc[Math.floor(Math.random() * imgSrc.length)];
-        this.speed = 4;
+        this.speed = 3;
     };
 
     draw() {
@@ -178,7 +178,7 @@ class Fralda {
             this.img = img;
         };
         img.src = './images/fralda-suja.jpg';
-        this.speed = 6;
+        this.speed = 3;
     };
 
     draw() {

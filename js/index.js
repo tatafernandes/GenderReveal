@@ -17,7 +17,7 @@
     let isGameOver = false;
     let isGameRunning = false;
     const gameWin = new Image;
-    gameWin.src = './images/its-girl';
+    gameWin.src = './images/its-girl.jpg';
 
     function showScore() {
         score.style.display = "block";
@@ -55,7 +55,7 @@
         const min = Math.ceil(75);
         const max = Math.floor(890);
         const lacoX = Math.floor(Math.random() * (max - min)) + min;
-        laco.push(new (canvas, context, lacoX, 40, 40));
+        laco.push(new Laco(canvas, context, lacoX, 40, 40));
       }
 
       function updateLaco() {
@@ -63,7 +63,7 @@
           laco[i].move();
           laco[i].draw();
           if (laco[i].posY >= canvas.height) {
-            lacos.shift();
+            laco.shift();
           };
         };
         if (frames % 200 === 0) {
@@ -72,11 +72,11 @@
       }
     
       function checkCatchLaco() {
-        let caught = laco.some(function(laco) {
-          return player.checkCollision(laco);
+        let caught = laco.some(function(eachLaco) {
+          return player.checkCollision(eachLaco);
         });  
         if (caught) {
-          laco.forEach((laco, index) => {
+          laco.forEach((eachLaco, index) => {
             laco.splice(index, 1);
             background.score += 1;
             scoreNumber.innerText = background.score;
@@ -139,28 +139,22 @@
 
 
       function checkGameOver() {
-        let caught = obstacles.some(function(obstacle) {
-          return player.checkCollision(obstacle);
+        let caught = fralda.some(function(eachFralda) {
+          return player.checkCollision(eachFralda);
         });  
         if (caught || background.score < 0) {
           isGameOver = true;
           clearInterval(animationId);
           clearCanvas();
           context.drawImage(gameOver, 0, 0, canvas.width, canvas.height);
-          context.fillStyle = 'red';
-          context.font = '50px Arial';
-          context.fillText('GAME OVER', 400, 300);
         };
       }
     
       function checkWin() {
-      if (background.score >= 50) {
+      if (background.score >= 20) {
           clearInterval(animationId);
           clearCanvas();
           context.drawImage(gameWin, 0, 0, canvas.width, canvas.height);
-          context.fillStyle = 'green';
-          context.font = '50px Arial';
-          context.fillText('ITS A GIRL!!', 300, 50);
         };
       }
     
@@ -191,11 +185,11 @@
       document.addEventListener('keydown', (event) => {
         if (isGameOver === false && isGameRunning === true) {
           switch (event.code) {
-            case 'SetaEsquerda':
+            case 'ArrowLeft':
             case 'KeyA':
               player.moveLeft();
               break;
-            case 'SetaDireita':
+            case 'ArrowRight':
             case 'KeyD':
               player.moveRight();
               break;

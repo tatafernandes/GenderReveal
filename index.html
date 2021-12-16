@@ -8,28 +8,32 @@
     <title>Gender Reveal</title>
 </head>
 <body>
-    <div class="button-div">
-      <button id="start-button">Start Game</button>
-    </div>
-    <div class="game-score">
-      <p>SCORE: <span id="current-score">0</span></p>
-    </div>
-  </nav>
+    
     
 
     <section class="game-img">
       <div class="how-to">
         <h1>HOW TO PLAY:</h1>
-        <p>Use <img src="images/seta-esquerda.png" alt="seta-esquerda-img" class="seta"> and <img src="images/seta-direita.png" alt="seta-direita-img" class="seta"> </p>
-        <p>Catch <img src="images/laco-rosa.jpg" alt="laco-rosa-img" id="laco-rosa"> to get points.</p>
-        <p>Avoid <img src="images/laco-azul.png" alt="laco-azul-img" id="laco-azul">  to not lose points.</p>
-        <p>Escape from <img src="images/fralda-suja.jpg" alt="fralda-suja-img" id="fralda-suja"> to not lose the game.</p>
+        <li>Use <img src="./images/seta-esquerda.png" alt="seta-esquerda-img" class="seta"> and <img src="images/seta-direita.png" alt="seta-direita-img" class="seta"> </li>
+        <li>Catch <img src="./images/laco-rosa.gif" alt="laco-rosa-img" id="laco-rosa"> to get points.</li>
+        <li>Avoid <img src="./images/laco-azul.png" alt="laco-azul-img" id="laco-azul">  to not lose points.</li>
+        <li>Escape from <img src="./images/fralda-suja.jpg" alt="fralda-suja-img" id="fralda-suja"> to not lose the game.</li>
         <br>
-        <p>Get to 50 points to win!</p>
-        <p> HAVE FUN!</p>
+      </div>
+
+      <div class= "jogo">
+        <strong>Get 20 points to win!</strong>
+        <strong> HAVE FUN!</strong>
       </div>
 
 
+      <div class="button-div">
+        <button id="start-button">Start Game</button>
+      </div>
+      <div class="game-score">
+        <p>SCORE: <span id="current-score">0</span></p>
+      </div>
+    </nav>
 
       <div class="canvas">
         <canvas id="canvas" width="1000" height="680"></canvas>
@@ -39,4 +43,8 @@
     <script type="text/javascript" src="js/carrinho.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
+
+<footer>
+  <p>© 2021 Made with love by Thais Fernandes</p>
+</footer>
 </html>
