@@ -12,12 +12,12 @@
     let powerUps = [];
     let score = document.querySelector(".game-score");
     let scoreNumber = document.getElementById('current-score');
-    const gameOver = new Image;
-    gameOver.src = './images/game-over.jpg';
+    const gameOver = new Image();
+    gameOver.src = './Images/game-over.jpg';
     let isGameOver = false;
     let isGameRunning = false;
-    const gameWin = new Image;
-    gameWin.src = './images/its-girl.jpg';
+    const gameWin = new Image();
+    gameWin.src = './Images/its-girl.jpg';
 
     function showScore() {
         score.style.display = "block";
