@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/brusher');
+
+
 html {
     background-color: #f3fffc;
     background-size: cover;
@@ -11,30 +14,39 @@ body {
 
 .aboutbutton {
     border-radius: 60px;
-    font-size: 70px;
+    font-size: 40px;
     border-style: dashed;
     padding: 5px;
-    
+    background-color: #f3bdbd;
+    text-align: center;
+    font-family: 'brusher';
+    color: rgb(48, 46, 46);
 
 }
 
 .howto {
     border-radius: 60px;
-    font-size: 70px;
+    font-size: 40px;
     border-style: dashed;
     padding: 5px;
+    background-color: #f3bdbd;
+    font-family: 'brusher';
+    color: rgb(48, 46, 46);
 }
 
 .button-div {
     border-radius: 60px;
-    font-size: 70px;
+    font-size: 40px;
     border-style: dashed;
     padding: 5px;
+    background-color: #f3bdbd;
+    color: rgb(48, 46, 46);
+    font-family: 'brusher';
 }
 
 #botoes {
     background-color: transparent;
-    color: black;
+    color: rgb(48, 46, 46);
     padding: 65px 10px 15px 10px;
     font-size: 70px;
     text-align: center;
@@ -46,6 +58,10 @@ body {
   align-items: baseline;
 }
 
+#home-link {
+    color: black;
+}
+
 
 h1 {
   font-size: 64px;
@@ -54,7 +70,7 @@ h1 {
   line-height: 86px;
   letter-spacing: 0em;
   text-align: center;
-  color: purple;
+  color: #3b7430;
   background-color: transparent;
 }
 
@@ -64,13 +80,13 @@ h2 {
     font-weight: 600;
     line-height: 80px;
     text-align: center;
-    color:rebeccapurple;
+    color:#5cb34b;
 
 }
 
 p {
     font-size: 25px;
-    color:blueviolet;
+    color:#5cb34b;
     text-align: justify;
 }
 
