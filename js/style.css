@@ -1,36 +1,93 @@
 html {
-    background-color: rgb(240, 227, 118);
+    background-color: #f3fffc;
+    background-size: cover;
     font-family:Arial, Helvetica, sans-serif;
 }
 body {
     margin: 10px;
     padding: 10px;
+    background-size: cover;
 }
-#game-img {
-    width: 20px;
-    padding-left: 40px;
-    padding-top: 5px;
+
+.aboutbutton {
+    border-radius: 60px;
+    font-size: 70px;
+    border-style: dashed;
+    padding: 5px;
+    
+
 }
+
+.howto {
+    border-radius: 60px;
+    font-size: 70px;
+    border-style: dashed;
+    padding: 5px;
+}
+
 .button-div {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    align-items: center;
-    align-content: center;
+    border-radius: 60px;
+    font-size: 70px;
+    border-style: dashed;
+    padding: 5px;
 }
-#start-button {
-    background-color: white;
+
+#botoes {
+    background-color: transparent;
     color: black;
-    padding: 15px 10px 15px 10px;
-    font-size: 30px;
+    padding: 65px 10px 15px 10px;
+    font-size: 70px;
     text-align: center;
+    align-items: center;
+    border-radius: 80px;
+    display: inline;
+  flex-direction: row;
+  justify-content:center;
+  align-items: baseline;
 }
+
+
+h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: purple;
+  background-color: transparent;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    color:rebeccapurple;
+
+}
+
+p {
+    font-size: 25px;
+    color:blueviolet;
+    text-align: justify;
+}
+
 .game-score {
     display: none;
     font-size: 30px;
     color: rgb(230, 80, 80);
     padding: 0px 0px 0px 20px;
 }
+
+.about {
+    background-color: seashell;
+    text-align: justify;
+    margin-left: 45px;
+
+}
+
 .how-to {
     width: 800px;
     font-size: 20px;
@@ -39,12 +96,17 @@ body {
     margin-top: 60px;
     margin-left: 45px;
     line-height: 5px;
+    background-color: seashell;
+    background-size: cover;
     
 }
+
+
+
 .seta {
     width: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .jogo {
@@ -74,21 +136,9 @@ body {
 #fralda-suja {
     width: 100px;
 }
-.game {
-    display: flex;
-    flex-direction: row;
-    margin-left: 0px;
-}
-
-#links-img {
-    padding-left: 25px;
-    width: 5px;
-    white-space: pre-line;
-    text-align: justify;
-}
 
 .canvas {
-    background-color: rgb(240, 227, 118);
+    background-image: src= "./Images/fundo2.jfif";
 }
 
 #carrinho {

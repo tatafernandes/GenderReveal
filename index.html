@@ -8,33 +8,30 @@
     <title>Gender Reveal</title>
 </head>
 <body>
-    
-    
+  <img id= "fundo" src= "./images/fundo.png">
+   
+  <section id= "botoes">
 
-    <section class="game-img">
-      <div class="how-to">
-        <h1>HOW TO PLAY:</h1>
-        <li>Use <img src="./Images/seta-esquerda.png" alt="seta-esquerda-img" class="seta"> and <img src="Images/seta-direita.png" alt="seta-direita-img" class="seta"> </li>
-        <li>Catch <img src="./Images/laco-rosa.gif" alt="laco-rosa-img" id="laco-rosa"> to get points.</li>
-        <li>Avoid <img src="./Images/laco-azul.png" alt="laco-azul-img" id="laco-azul">  to not lose points.</li>
-        <li>Escape from <img src="./Images/fralda-suja.jpg" alt="fralda-suja-img" id="fralda-suja"> to not lose the game.</li>
-        <br>
-      </div>
-
-
-      <div class= "jogo">
-        <strong>Get 20 points to win!</strong>
-        <strong> HAVE FUN!</strong>
-      </div>
-
-
+  <div class= "aboutbutton">
+    <a href="./about-me.html">
+      <button>About Me</button>
+  </a>
+  </div>
+  <br />
+  <div class= "howto">
+    <a href="./how-to.html">
+      <button>How to Play</button>
+  </a>
+  </div>
+  <br />
       <div class="button-div">
         <button id="start-button">Start Game</button>
       </div>
-      <div class="game-score">
-        <p>SCORE: <span id="current-score">0</span></p>
-      </div>
-    </nav>
+    </section>
+    <br />
+    <div class="game-score">
+      <p>SCORE: <span id="current-score">0</span></p>
+    </div>
 
       <div class="canvas">
         <canvas id="canvas" width="1000" height="680"></canvas>

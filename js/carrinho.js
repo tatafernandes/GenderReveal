@@ -9,11 +9,11 @@ class Background {
         img.onload = () => {
             this.img = img;
         };
-        img.src = './Images/background.jpg';
+        img.src = './Images/fundo2.jfif';
     };
 
     draw() {
-        this.context.globalAlpha = 0.4;
+        this.context.globalAlpha = 0.2;
         this.context.drawImage(this.img, this.posX, this.posY, this.canvas.width, this.canvas.height);
     };
 };
