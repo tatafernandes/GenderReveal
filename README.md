@@ -9,8 +9,12 @@ This is my game for Module I - Web Development at Ironhack
 <p>If you get the ble one, you'll lose 1 point</p>
 <p>If you get the diaper, you'll lose!</p>
 
+# Link to Play
+
+<li>https://tatafernandes.github.io/GenderReveal/</li>
+
 # Languages
-[HTML]
-[CSS]
-[Javascript]
-[Canvas]
+<li>[HTML]</li>
+<li>[CSS]</li>
+<li>[Javascript]</li>
+<li>[Canvas]</li>
