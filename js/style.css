@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/brusher');
+@import url('http://fonts.cdnfonts.com/css/sappire');
 
 
 html {
@@ -19,8 +19,11 @@ body {
     padding: 5px;
     background-color: #f3bdbd;
     text-align: center;
-    font-family: 'brusher';
+    font-family: 'Sappire';
     color: rgb(48, 46, 46);
+    margin-left: 15px;
+    height: 75px;
+    width: 260px;
 
 }
 
@@ -30,8 +33,11 @@ body {
     border-style: dashed;
     padding: 5px;
     background-color: #f3bdbd;
-    font-family: 'brusher';
+    font-family: 'Sappire';
     color: rgb(48, 46, 46);
+    margin-left: 15px;
+    height: 75px;
+    width: 260px;
 }
 
 .button-div {
@@ -41,7 +47,10 @@ body {
     padding: 5px;
     background-color: #f3bdbd;
     color: rgb(48, 46, 46);
-    font-family: 'brusher';
+    font-family: 'Sappire';
+    margin-left: 15px;
+    height: 75px;
+    width: 260px;
 }
 
 #botoes {
@@ -65,7 +74,7 @@ body {
 
 h1 {
   font-size: 64px;
-  font-style: normal;
+  font-family: 'Sappire';
   font-weight: 700;
   line-height: 86px;
   letter-spacing: 0em;
@@ -76,26 +85,38 @@ h1 {
 
 h2 {
     font-size: 40px;
-    font-style: normal;
+    font-family: 'Sappire';
     font-weight: 600;
     line-height: 80px;
     text-align: center;
-    color:#5cb34b;
+    color:purple;
 
 }
 
 p {
     font-size: 25px;
-    color:#5cb34b;
+    color:black;
     text-align: justify;
+    font-family: 'Sappire';
+}
+
+strong {
+    font-family: 'Sappire';
+}
+
+li {
+    font-family: 'Sappire';
+    font-size: 50px;
 }
 
 .game-score {
     display: none;
-    font-size: 30px;
-    color: rgb(230, 80, 80);
+    font-size: 100px;
+    font-style: italic;
+    color: rgb(11, 51, 16);
     padding: 0px 0px 0px 20px;
 }
+
 
 .about {
     background-color: seashell;
@@ -151,6 +172,7 @@ p {
 
 #fralda-suja {
     width: 100px;
+    size: 5px;
 }
 
 .canvas {
