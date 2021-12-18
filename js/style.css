@@ -125,6 +125,10 @@ li {
 
 }
 
+.about-me {
+    font-family: 'Sappire';
+}
+
 .how-to {
     width: 800px;
     font-size: 20px;
@@ -135,6 +139,7 @@ li {
     line-height: 5px;
     background-color: seashell;
     background-size: cover;
+    font-family: 'Sappire';
     
 }
 
